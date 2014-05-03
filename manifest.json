@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "ideletedthat",
+  "description": "This Plugin replaces base64 usernames on @ideletedthat profile page",
+  "version": "1.0",
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/ideletedthat"],
+      "js": ["jquery-2.1.1.min.js", "jquery.base64.js", "ideletedthattweet.js"]
+    }
+  ],
+
+  "browser_action": {
+    "default_title": "base64decode"
+  }
+}
