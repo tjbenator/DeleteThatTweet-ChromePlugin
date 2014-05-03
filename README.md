@@ -1,7 +1,7 @@
 Delete That Tweet - Chrome Plugin
 ====================
 
-Decodes base64 encoded @usernames
+Decodes base64 encoded @usernames on [@ideletedthat's](twitter.com/ideletedthat) profile page
 
 
 
